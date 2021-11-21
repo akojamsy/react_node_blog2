@@ -1,0 +1,87 @@
+.setting {
+    display: flex;
+}
+
+.settingWrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.settingTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingUpdateAccount {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #3de5f1;
+}
+
+.settingDeleteAccount {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingForm>label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingForm>input {
+    color: #afaeae;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #72aaaa;
+}
+
+.settingForm>input:focus {
+    outline: none;
+}
+
+.settingProfilePicture {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingProfilePicture>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingProfilePictureIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #29c9d4;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #72aaaa;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
